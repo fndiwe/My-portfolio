@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Franklin</title>
+    <meta name="description" content="Franklin's student portfolio and academic planner.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;800&family=Work+Sans:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="site-header"><a class="brand" href="index.html">Franklin</a>
+        <button class="menu-btn" id="menuBtn" aria-label="Toggle menu" aria-expanded="false">Menu</button>
+        <nav>
+            <ul class="nav" id="nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html" aria-current="page">Projects</a></li>
+                <li><a href="planner.html">Planner</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="wrap">
+            <h1>Projects</h1>
+            <div class="cards">
+                <article class="card"><img src="images/apologia.svg" alt="Apologia app screenshot placeholder"
+                        width="640" height="400">
+                    <div>
+                        <h2>Apologia</h2>
+                        <p>An offline-first Bible study and theological reference app built with Flutter. It lets
+                            students read, search and cross-reference without a connection.</p>
+                        <p class="tech">Flutter, Dart</p><a class="btn small" href="https://github.com/fndiwe/apologia"
+                            target="_blank" rel="noopener">View on GitHub</a>
+                    </div>
+                </article>
+                <article class="card"><img src="images/firstcheck.svg" alt="FirstCheck app screenshot placeholder"
+                        width="640" height="400">
+                    <div>
+                        <h2>FirstCheck</h2>
+                        <p>An offline-first health triage app for the Nigerian market. It guides users through symptoms
+                            and suggests when to seek care, even with no data.</p>
+                        <p class="tech">Flutter, offline storage</p><a class="btn small"
+                            href="https://github.com/fndiwe/firstcheck" target="_blank" rel="noopener">View on
+                            GitHub</a>
+                    </div>
+                </article>
+                <article class="card"><img src="images/hymn-studio.svg" alt="Hymn Studio app screenshot placeholder"
+                        width="640" height="400">
+                    <div>
+                        <h2>Hymn Studio</h2>
+                        <p>An Android studio for creating hymns and songs with AI help, MIDI editing and live
+                            accompaniment, built with Kotlin and Jetpack Compose.</p>
+                        <p class="tech">Kotlin, Jetpack Compose</p><a class="btn small"
+                            href="https://github.com/fndiwe/hymn-studio" target="_blank" rel="noopener">View on
+                            GitHub</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <p>&copy; 2026 Franklin</p>
+        <p><a href="https://github.com/fndiwe">github.com/fndiwe</a></p>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Academic Planner | Franklin</title><meta name="description" content="Franklin's student portfolio and academic planner.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;800&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css"></head><body>
+<header class="site-header"><a class="brand" href="index.html">Franklin</a>
+<button class="menu-btn" id="menuBtn" aria-label="Toggle menu" aria-expanded="false">Menu</button>
+<nav><ul class="nav" id="nav"><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="projects.html">Projects</a></li><li><a href="planner.html" aria-current="page">Planner</a></li><li><a href="contact.html">Contact</a></li></ul></nav></header>
+<main><section class="wrap narrow"><h1>Academic planner</h1>
+<form id="taskForm" class="row"><label for="taskInput" class="sr">New task</label><input id="taskInput" type="text" placeholder="e.g. Finish COS 106 project" required><button class="btn" type="submit">Add task</button></form>
+<p id="count" class="note" aria-live="polite"></p><ul id="taskList" class="tasks"></ul></section></main>
+<footer class="site-footer"><p>&copy; 2026 Franklin</p>
+<p><a href="https://github.com/fndiwe">github.com/fndiwe</a></p></footer>
+<script src="js/main.js"></script><script src="js/planner.js"></script></body></html>

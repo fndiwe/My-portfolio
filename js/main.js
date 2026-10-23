@@ -1,0 +1,2 @@
+const btn = document.getElementById("menuBtn"), nav = document.getElementById("nav");
+btn.addEventListener("click", () => { const open = nav.classList.toggle("open"); btn.setAttribute("aria-expanded", open) });
